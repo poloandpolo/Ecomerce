@@ -1,0 +1,63 @@
+.header-container {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    margin: 10px 0 15px 0;
+}
+
+.header-container-logo-wrapper {
+    height: 50px;
+    width: 200px;
+    display: flex;
+
+}
+
+.header-container-logo-wrapper img {
+    height: 35px;
+    margin: auto;
+}
+
+.header-container-searching-bar-wrapper{
+    width: 75vw;
+    padding: 5px;
+    display: flex;
+    margin: 0 10px 0 0;
+}
+
+.header-container-searching-bar-wrapper input{
+    all: unset;
+    width: 100%;
+    height: 35px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+.header-container-log-menus-wrapper {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    transform: translateX(-15px);
+    font-size: 18px;
+}
+
+.header-container-log-menus-wrapper label {
+    margin: auto;
+}
+
+.user-dropdown {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    width: 100%; /* Asegúrate de que el contenedor tenga el ancho adecuado */
+}
+
+.user-dropdown label {
+    margin: auto;
+    text-align: center;
+    display: flex; /* Para centrar el texto dentro del label */
+    align-items: center;
+    justify-content: center;
+}

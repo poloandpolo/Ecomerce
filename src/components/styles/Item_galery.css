@@ -1,0 +1,8 @@
+.items-galery-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+    grid-gap: 20px; /* Espacio entre las cards */
+    margin: 0 0 0 10px; /* Margen alrededor del grid */
+    width: 90vw;
+    right: 0;
+}

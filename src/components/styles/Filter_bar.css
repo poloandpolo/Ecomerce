@@ -1,0 +1,48 @@
+/* Contenedor principal del filtro */
+.filter-bar-container {
+    position: relative; /* Para que el menú desplegable se posicione correctamente en relación con el botón */
+    display: inline-block; /* Asegura que el contenedor del filtro se ajuste al contenido */
+}
+
+/* Estilo del botón de filtro */
+.filter-button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #007bff; /* Color de fondo para el botón */
+    color: white; /* Color del texto */
+    border: none; /* Quitar borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+    
+    top: 100%; /* Justo debajo del botón */
+    left: 0; /* Alinear con el borde izquierdo del botón */
+    background: white; /* Fondo blanco para el menú */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    width: 100px; /* Ancho del menú */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto de profundidad */
+    z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+    display: inline; /* Mostrar el menú cuando `isOpen` es true */
+    
+}
+
+/* Estilos para los elementos del menú */
+.dropdown-item {
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de la fuente */
+}
+
+.dropdown-item input {
+    margin: 0 5px 0 0;
+}
+
+/* Cambiar el fondo al pasar el ratón sobre un elemento del menú */
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
